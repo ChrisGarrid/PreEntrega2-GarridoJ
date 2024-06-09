@@ -137,7 +137,17 @@ section {
     justify-content: space-around;
     align-items: center;
 }
-
+.containerproductocarrucel{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.imagencarro{
+    display: flexbox;
+    width: 500px;
+      height: 300px;
+}
 .item {
     text-align: center;
 }
@@ -149,10 +159,12 @@ section {
 
 .product-name {
     font-weight: bold;
+    text-align: center;
 }
 
 .price {
-    color: #888;
+    color: #0c2831;
+    text-align: center;
 }
 /* equipo */
 .container {
