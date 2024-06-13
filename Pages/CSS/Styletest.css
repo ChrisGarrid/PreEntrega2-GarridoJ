@@ -144,9 +144,13 @@ section {
     justify-content: center;  
 }
 .imagencarro{
-    display: flexbox;
-    width: 500px;
-      height: 300px;
+    flex-wrap:nowrap;
+    width: 600px;
+      height: 600px;
+}
+.containertext-center{
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .item {
     text-align: center;
@@ -160,11 +164,13 @@ section {
 .product-name {
     font-weight: bold;
     text-align: center;
+    display: flex;
 }
 
 .price {
     color: #0c2831;
     text-align: center;
+    display: flex;
 }
 /* equipo */
 .container {
