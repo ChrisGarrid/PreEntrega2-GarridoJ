@@ -130,6 +130,46 @@ section {
 }
 
 /* Porducto */
+
+.imagenproducto{ 
+    margin-top: 50px;
+    flex-wrap:wrap;
+}
+.imagenproducto1{ 
+    margin-top: 50px;
+    flex-wrap:wrap;
+}
+.imagenproducto2{ 
+    margin-top: 50px;
+    flex-wrap:wrap;
+}
+.imagenproducto3{ 
+    margin-top: 50px;
+    flex-wrap:wrap;
+}
+.imagenEquipo{
+    width: 300px;
+    height: 200px;
+}
+.variedades{
+    margin-top: 50px;
+    display: inline-flex;
+}
+.product-name {
+    margin-left: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+.listavariedades{
+    margin-top: 50px;
+}
+.price {
+    margin-left: 30px;
+    color: #0c2831;
+    display: flex;
+}
+
 .containerProducto {
     max-width: 800px; /* Cambia este valor según tus preferencias */
     margin: 0 auto; /* Esto centra el elemento horizontalmente */
@@ -143,14 +183,9 @@ section {
     align-items: center;
     justify-content: center;  
 }
-.imagencarro{
-    flex-wrap:nowrap;
-    width: 600px;
-      height: 600px;
-}
 .containertext-center{
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .item {
     text-align: center;
@@ -161,17 +196,6 @@ section {
     height: auto;
 }
 
-.product-name {
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-}
-
-.price {
-    color: #0c2831;
-    text-align: center;
-    display: flex;
-}
 /* equipo */
 .container {
     margin-left: 15px;
